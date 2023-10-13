@@ -24,6 +24,7 @@ header {
     margin-bottom: 3rem;
 
 
+
 }
 
 h1 {
@@ -44,7 +45,10 @@ h2 {
 }
 
 ul {
-    background-color: #333;
+    /*background-color: #333;*/
+    background-color: #213059;
+
+
 }
 
 
@@ -55,7 +59,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 6;
     margin: 0;
     /* Add margin: 0 to remove the default margin */
 }
@@ -93,8 +97,44 @@ main {
     margin: 0;
 }
 
+.blue-background ul {
+    position: absolute;
+    top: 150px;
+    /* Adjust the value to position it at the top */
+    width: 100%;
+    padding-bottom: 5px;
+    /* Adjust the padding to create spacing at the bottom */
+    left: 0;
 
-.food-image {
-    width: 400px;
-    height: auto;
+}
+
+.blue-background ul li {
+    justify-content: center;
+    display: flex;
+    margin: 0 1rem;
+    /* Adjust the margin as needed */
+
+
+}
+
+.blue-background {
+    background-color: #213059;
+    /* Change this to the shade of gray you prefer */
+    display: flex;
+    /* This makes the container a flex container */
+    justify-content: flex-start;
+    /* Align to the left */
+    align-items: center;
+    /* Centers the image vertically */
+    height: 20vh;
+    /* Sets the container to the full viewport height */
+
+
+}
+
+.blue-background img {
+    max-width: 250%;
+    /* Ensure the image doesn't exceed the container's width */
+    max-height: 200%;
+    /* Ensure the image doesn't exceed the container's height */
 }
