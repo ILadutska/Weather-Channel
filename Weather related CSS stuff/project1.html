@@ -2,34 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Page 1</title>
     <link rel="stylesheet" href="ProjectStyle.css">
 </head>
 
-
 <body>
-    <div class="blue-background">
-        <img src="Weather related CSS stuff\logodesigns2.png" alt="Atmos Alert">
-        <header>
-            <nav>
-
-                <ul>
-                    <li><a href="one.html">News</a></li>
-                    <li><a href="one.html">Information</a></li>
-                    <li><a href="two.html">Education</a></li>
-                    <li><a href="two.html">Developers</a></li>
-                    <li><a href="two.html">About</a></li>
-                </ul>
-            </nav>
-            <div class="search-container">
-                <input type="text" placeholder="Search...">
-                <button type="submit">Search</button>
-            </div>
-        </header>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
     </div>
+    <div class="background-image">
+        <img src="mountains.jpg" width="1350" height="700" alt="clouds image">
+        <div class="on-top">
+            <img src="logodesigns.png" width="182" height="190" alt="atmos alert">
+            <div class="taskbar">
+                <nav>
+                    <ul class="taskbar">
+                        <li><a href="https://www.bbc.com/weather">Home</a></li>
+                        <li><a href="one.html">Local News</a></li>
+                        <li><a href="two.html">Historical Data</a></li>
+                        <li><a href="two.html">Daily Advisory</a></li>
+                        <li><a href="two.html">About Us</a></li>
+                        <li><a href="two.html">Link to API</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="containerTime">
+        <h6 id="currentTime"></h6>
+    </div>
+    <div class="containerDay">
+        <h6 id="currentDay"></h6>
+    </div>
+    <div class="containerDate">
+        <h6 id="currentDate"></h6>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
